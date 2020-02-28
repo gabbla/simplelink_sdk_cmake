@@ -12,11 +12,6 @@ set(TOOLCHAIN_BIN_DIR ${TOOLCHAIN_PREFIX}/bin)
 set(TOOLCHAIN_INC_DIR ${TOOLCHAIN_PREFIX}/${TOOLCHAIN}/include)
 set(TOOLCHAIN_LIB_DIR ${TOOLCHAIN_PREFIX}/${TOOLCHAIN}/lib)
 
-set(SDK_ROOT "/opt/ti/simplelink_cc13x2_26x2_sdk_3_40_00_02"
-    CACHE INTERNAL "SDK path")
-set(XDCTOOLS "/opt/ti/xdctools_3_60_02_34_core"
-    CACHE INTERNAL "XDCTools path")
-
 ################################################################################
 # Compiler/Linker flags
 ################################################################################
