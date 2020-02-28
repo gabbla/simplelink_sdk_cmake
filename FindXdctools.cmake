@@ -4,16 +4,11 @@
 
 include(FindPackageHandleStandardArgs)
 
-if(NOT XDCTOOLS_PATH)
-    set(XDCTOOLS_PATH "~/ti/xdctools_3_60_02_34_core")
-    message(STATUS "Using default XDCTOOLS_PATH: ${XDCTOOLS_PATH}")
-endif()
-
 # Find the path to xdc headers
 find_path(Xdctools_HEADER_DIR
     NAMES "std.h"
     PATH_SUFFIXES "packages/xdc"
-    PATHS "${XDCTOOLS_PATH}"
+    PATHS "${XDCTOOLS}"
     NO_CMAKE_FIND_ROOT_PATH
 )
 #message("Content of Xdctools_HEADER_DIR:" ${Xdctools_HEADER_DIR})
