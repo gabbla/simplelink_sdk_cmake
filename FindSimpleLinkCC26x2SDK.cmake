@@ -52,6 +52,7 @@ set(SimpleLinkCC26x2SDK_INCLUDE_DIRS
     "${SimpleLinkCC26x2SDK_DEVICES_DIR}/../.."
     "${SimpleLinkCC26x2SDK_DEVICES_DIR}/../../../kernel/tirtos/packages/ti/sysbios/posix"
     "${SimpleLinkCC26x2SDK_DEVICES_DIR}/../../../kernel/tirtos/packages"
+    "${SimpleLinkCC26x2SDK_DEVICES_DIR}/.."
 )
 #message("Content of SimpleLinkCC26x2SDK_INCLUDE_DIRS " ${SimpleLinkCC26x2SDK_INCLUDE_DIRS})
 
